@@ -3,9 +3,9 @@ Gem::Specification.new do |spec|
   spec.version       = "0.0.1"
   spec.authors       = ["Taylor Lapeyre"]
   spec.email         = ["taylorlapeyre@gmail.com"]
-  spec.description   = %q{TODO: Add a description}
-  spec.summary       = %q{TODO: Add a summary}
-  spec.homepage      = "TODO: Add a homepage"
+  spec.description   = %q{Define words in Lita using Urban Dictionary}
+  spec.summary       = %q{Define words in Lita using Urban Dictionary}
+  spec.homepage      = "https://github.com/taylorlapeyre/lita-urban"
   spec.license       = "MIT"
   spec.metadata      = { "lita_plugin_type" => "handler" }
 
@@ -15,7 +15,6 @@ Gem::Specification.new do |spec|
   spec.require_paths = ["lib"]
 
   spec.add_runtime_dependency "lita", ">= 4.1"
-  spec.add_runtime_dependency "urban_dictionary", ">= 0.0.2"
 
   spec.add_development_dependency "bundler", "~> 1.3"
   spec.add_development_dependency "rake"
