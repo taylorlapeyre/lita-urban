@@ -1,6 +1,6 @@
 # lita-urban
 
-TODO: Add a description of the plugin.
+Use your Lita robot to define words using urban dictionary.
 
 ## Installation
 
@@ -10,14 +10,12 @@ Add lita-urban to your Lita instance's Gemfile:
 gem "lita-urban"
 ```
 
-
-## Configuration
-
-TODO: Describe any configuration attributes the plugin exposes.
-
 ## Usage
 
-TODO: Describe the plugin's features and how to use them.
+```
+@bot: urban me bick
+@bot: urban bick
+```
 
 ## License
 
